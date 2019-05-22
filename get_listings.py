@@ -25,11 +25,9 @@ def extract_program_details(page_html):
 
     soup = BeautifulSoup(page_html, "html.parser")
 
-    #print(soup.prettify())
+    # print(soup.prettify())
 
     dash_regex = re.compile("-|–")
-
-
 
     programs = []
 
@@ -46,7 +44,6 @@ def extract_program_details(page_html):
                                 path=href))
 
     return programs
-
 
 
 def extract_course_details(page_html):
@@ -67,7 +64,7 @@ def extract_course_details(page_html):
         course = sanitize_course_details(**course)
 
         # Retrict to CS 4xx an lower (undergrad)
-        if int(course["number"].split()[1][0])< 5:
+        if int(course["number"].split()[1][0]) < 5:
             courses.append(course)
 
     return courses
@@ -79,14 +76,13 @@ def sanitize_course_details(number, title, credits, description):
               "title": title,
               "credits": credits.split("C")[0][:-1]}
 
-
     # Description processing is a little more fun
     BLANK_LINES = ["<br>", "<br />", "<br/>", "\n", ""]
 
     description = [str(line).strip() for line in description]
     description = " ".join([line for line in description if line not in BLANK_LINES])
 
-    #print(description)
+    # print(description)
 
     description = description.replace("\xa0", " ").split("Prerequisites:")
 
@@ -108,7 +104,7 @@ def sanitize_course_details(number, title, credits, description):
 
     description = re.sub(r"<[/]*a[^>]*>", r" ", description)
 
-    #print(prereqs)
+    # print(prereqs)
 
     course["description"] = description
     course["prereqs"] = prereqs
@@ -138,21 +134,3 @@ if __name__ == "__main__":
     pp.pprint(courses)
 
     print(courses[0])
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
