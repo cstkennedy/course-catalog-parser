@@ -70,6 +70,28 @@ def extract_course_details(page_html):
     return courses
 
 
+def split_description(raw_description):
+
+    description = raw_description.replace("\xa0", " ").split("Prerequisites:")
+
+    if len(description) == 1:
+        description = description[0].split("Prerequisite:")
+
+    if len(description) > 1:
+        description, prereqs = description
+
+        prereqs = re.sub(r"\s*<[/]*a[^>]*>\s*", r" ", prereqs)
+        prereqs = prereqs.replace("\xa0", " ").strip()
+
+    else:
+        description = description[0]
+        prereqs = None
+
+    description = re.sub(r"<[/]*a[^>]*>\s*", r" ", description)
+
+    return description, prereqs
+
+
 def sanitize_course_details(number, title, credits, description):
 
     course = {"number": number.replace("\xa0", " "),
@@ -82,34 +104,42 @@ def sanitize_course_details(number, title, credits, description):
     description = [str(line).strip() for line in description]
     description = " ".join([line for line in description if line not in BLANK_LINES])
 
-    # print(description)
+    description, prereqs = split_description(description)
 
-    description = description.replace("\xa0", " ").split("Prerequisites:")
-
-    if len(description) == 1:
-        description = description[0].split("Prerequisite:")
-
-    if len(description) > 1:
-        description, prereqs = description
-
-        prereqs = re.sub(r"<[/]*a[^>]*>", r" ", prereqs)
-        prereqs = prereqs.replace("\xa0", " ").strip()
-
-        # for pq_course in re.finditer(r"[A-Za-z]{2,} \d{3}(/\d{3}){0,1}", prereqs):
-        #   print("\"{}\"->\"{}\"".format(number,pq_course.group(0)))
-
-    else:
-        description = description[0]
-        prereqs = None
-
-    description = re.sub(r"<[/]*a[^>]*>", r" ", description)
-
-    # print(prereqs)
-
-    course["description"] = description
+    course["description"] = re.sub(r"\s{2,}", " ", description.strip())
     course["prereqs"] = prereqs
 
     return course
+
+
+def extract_prereq_courses(prereq_statement):
+    COURSE_NUM_PATTERN = r"[A-Za-z]{2,} \d{3}[AGHNRT]{0,1}(/\d{3}){0,1}"
+
+    return [course.group(0) for course in re.finditer(COURSE_NUM_PATTERN,
+                                                      prereq_statement)]
+
+
+def extract_usable_prereqs(courses):
+
+    for course in courses:
+        print(course["prereqs"])
+
+        if not course["prereqs"]:
+            course["prereq_list"] = []
+        else:
+            course["prereq_list"] = extract_prereq_courses(course["prereqs"])
+
+
+def find_is_required_for(course, all_courses):
+
+    print(f"{course['number']}:", end="")
+
+    for other_course in all_courses:
+
+        if course["number"] in other_course["prereq_list"]:
+            print(other_course["number"], "", end="")
+
+    print()
 
 
 if __name__ == "__main__":
@@ -131,6 +161,9 @@ if __name__ == "__main__":
     pp = PrettyPrinter(indent=2, stream=sys.stderr)
     courses = extract_course_details(the_page)
 
+    extract_usable_prereqs(courses)
+
     pp.pprint(courses)
 
-    print(courses[0])
+    for course in courses:
+        find_is_required_for(course, courses)
