@@ -11,6 +11,9 @@ from bs4 import BeautifulSoup
 
 Subject = namedtuple("Subject", ["abbrev", "full", "path"])
 
+BLANK_LINES = ["<br>", "<br />", "<br/>", "\n", ""]
+COURSE_NUM_PATTERN = r"[A-Za-z]{2,} \d{3}[AGHNRT]{0,1}(/\d{3}){0,1}"
+
 
 def download_page(url_to_check):
     # http://catalog.odu.edu/courses/
@@ -99,10 +102,10 @@ def sanitize_course_details(number, title, credits, description):
               "credits": credits.split("C")[0][:-1]}
 
     # Description processing is a little more fun
-    BLANK_LINES = ["<br>", "<br />", "<br/>", "\n", ""]
 
     description = [str(line).strip() for line in description]
-    description = " ".join([line for line in description if line not in BLANK_LINES])
+    description = " ".join([line for line in description
+                            if line not in BLANK_LINES])
 
     description, prereqs = split_description(description)
 
@@ -113,7 +116,6 @@ def sanitize_course_details(number, title, credits, description):
 
 
 def extract_prereq_courses(prereq_statement):
-    COURSE_NUM_PATTERN = r"[A-Za-z]{2,} \d{3}[AGHNRT]{0,1}(/\d{3}){0,1}"
 
     return [course.group(0) for course in re.finditer(COURSE_NUM_PATTERN,
                                                       prereq_statement)]
