@@ -1,12 +1,13 @@
 #! /usr/bin/env python3
 
-import odu_catalog.scraper as scraper
-
 from pprint import PrettyPrinter
+from collections import namedtuple
+
 import sys
 import re
 import os
-from collections import namedtuple
+
+import odu_catalog.scraper as scraper
 
 
 COURSE_NUM_PATTERN = r"[A-Za-z]{2,} \d{3}[AGHNRT]{0,1}(/\d{3}){0,1}"
@@ -45,12 +46,12 @@ if __name__ == "__main__":
 
     # base_page = download_page("http://catalog.odu.edu/courses/");
     # extract_program_details(base_page)
-    base_catalog_url = "http://catalog.odu.edu/courses/cs/" 
+    base_catalog_url = "http://catalog.odu.edu/courses/cs/"
 
     if os.path.exists("courses-cs.html"):
         with open("courses-cs.html", "r") as subject_file:
             the_page = subject_file.read()
-    
+
     else:
 
         with open("courses-cs.html", "w") as subject_file:
