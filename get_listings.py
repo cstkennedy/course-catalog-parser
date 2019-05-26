@@ -11,7 +11,7 @@ import gzip
 import odu_catalog.scraper as scraper
 
 
-COURSE_NUM_PATTERN = r"[A-Za-z]{2,} \d{3}[AGHNRT]{0,1}(/\d{3}){0,1}"
+COURSE_NUM_PATTERN = r"[A-Za-z]{2,} \d{3}[ACGHMNRTW]{0,1}(/\d{3}){0,1}"
 
 
 def _extract_prereq_courses(prereq_statement):
@@ -31,16 +31,26 @@ def extract_usable_prereqs(courses):
             course["prereq_list"] = _extract_prereq_courses(course["prereqs"])
 
 
+def list_contains_a(subject: str, course_list):
+
+    for course in course_list:
+        if course.lower().startswith(subject):
+            return True
+
+    return False
+
+
 def find_is_required_for(course, all_courses):
 
-    print(f"{course['number']}:", end="")
+    prereq_to_list = []
 
     for other_course in all_courses:
-
         if course["number"] in other_course["prereq_list"]:
-            print(other_course["number"], "", end="")
+            prereq_to_list.append(other_course["number"])
 
-    print()
+    if len(prereq_to_list) > 0 and list_contains_a("cs", prereq_to_list):
+        print(f"{course['number']}: ", end="")
+        print(", ".join(prereq_to_list))
 
 
 def download_all_programs():
@@ -79,15 +89,21 @@ if __name__ == "__main__":
 
     pp = PrettyPrinter(indent=2, stream=sys.stderr)
 
-    # Analyze CS
-    with gzip.open("courses/cs.html.gz", "rt") as subject_file:
-        the_page = subject_file.read()
+    subject_list = ["cs", "math", "engl"]
 
-    courses = scraper.extract_course_details(the_page)
+    courses = []
+
+    for abbrev in subject_list:
+        with gzip.open(f"courses/{abbrev}.html.gz", "rt") as subject_file:
+            the_page = subject_file.read()
+
+        courses += scraper.extract_course_details(the_page)
 
     extract_usable_prereqs(courses)
 
-    # pp.pprint(courses)
+    pp.pprint(courses)
+    print("-" * 80)
 
     for course in courses:
+        # if course["number"].split()[0].lower() in ["math", "cs"]:
         find_is_required_for(course, courses)
