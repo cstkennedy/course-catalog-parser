@@ -30,19 +30,6 @@ def list_contains_a(subject: str, course_list):
     return False
 
 
-def find_is_required_for(course, all_courses):
-
-    prereq_to_list = []
-
-    for other_course in all_courses:
-        if course["number"] in other_course["prereq_list"]:
-            prereq_to_list.append(other_course["number"])
-
-    if len(prereq_to_list) > 0 and list_contains_a("cs", prereq_to_list):
-        print(f"{course['number']}: ", end="")
-        print(", ".join(prereq_to_list))
-
-
 def extract_prereqs_as_dict(all_courses):
     """
     Map course number to immediate prereqs.
@@ -76,3 +63,44 @@ def walk_prereq_chains(all_prereqs):
                 ignored_courses.append(prereq)
 
     return ignored_courses
+
+
+def _find_required_for(course, all_courses):
+
+    prereq_to_list = []
+
+    for other_course in all_courses:
+        if course["number"] in other_course["prereq_list"]:
+            prereq_to_list.append(other_course["number"])
+
+    return prereq_to_list
+
+
+def find_required_for(all_courses):
+
+    courses_prereq_to = {}
+
+    for course in all_courses:
+        number = course["number"]
+        courses_prereq_to[number] = _find_required_for(course, all_courses)
+
+    return courses_prereq_to
+
+
+def walk_required_for_chains(courses_prereq_to):
+
+    all_courses_prereq_to = {num: set(courses_prereq_to[num])
+                             for num in courses_prereq_to.keys()}
+
+    ignored_courses = []
+
+    for i in range(0, 2):
+        for course in all_courses_prereq_to:
+            for d_crs in all_courses_prereq_to[course]:
+                try:
+                    all_courses_prereq_to[course] = all_courses_prereq_to[d_crs].union(all_courses_prereq_to[course])
+
+                except KeyError as e:
+                    ignored_courses.append(d_crs)
+
+    return all_courses_prereq_to
