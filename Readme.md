@@ -41,3 +41,73 @@ This course is a pass/fail course for master's students in their final semester.
 </p>
 </div>
 ```
+
+# JSON Output
+
+The JSON Output will contain an entry for each course in the form:
+
+```json
+    {
+        "number": "CS 150",
+        "title": "Problem Solving and Programming I",
+        "credits": "4",
+        "description": "Laboratory work required. Introduction to computer-based problem solving and programming in C++. Topics include problem solving methodologies, program design, algorithm development, and testing. C++ language concepts include variables, data types and expressions, assignment, control-flow statements, functions, arrays, pointers, structs, and classes.",
+        "prereqs": "MATH 102M or MATH 103M or equivalent.",
+        "prereq_list": [
+            "MATH 102M",
+            "MATH 103M"
+        ],
+        "prereq_chain": [
+            "to 450",
+            "MATH 103M",
+            "MATH 102M"
+        ],
+        "required_for": [
+            "CS 170",
+            "CS 250",
+            "CS 252",
+            "CS 270",
+            "CS 333",
+            "CS 334",
+            "CS 381",
+            "CS 431/531",
+            "MATH 408/508"
+        ],
+        "required_for_chain": [
+            "CS 170",
+            "CS 250",
+            "CS 252",
+            "CS 270",
+            "CS 312",
+            "CS 330",
+            "CS 333",
+            "CS 334",
+            "CS 350",
+            "CS 355",
+            "CS 361",
+            "CS 381",
+            "CS 382",
+            "CS 390",
+            "CS 410/510",
+            "CS 411W/511",
+            "CS 417/517",
+            "CS 418/518",
+            "CS 431/531",
+            "CS 432/532",
+            "CS 441/541",
+            "CS 450/550",
+            "CS 451/551",
+            "CS 455/555",
+            "CS 460/560",
+            "CS 471",
+            "CS 472",
+            "CS 475/575",
+            "CS 476/576",
+            "CS 478/578",
+            "CS 480/580",
+            "CS 487",
+            "CS 488/588",
+            "MATH 408/508"
+        ]
+    },
+```
