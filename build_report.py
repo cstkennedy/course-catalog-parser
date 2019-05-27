@@ -36,7 +36,7 @@ def generate_report(course_list, fp):
         for course in course_list:
             print(COURSE_TEMPLATE.format(**course))
 
-            if course["prereqs"]:
+            if course["prereqs"] and len(course["prereq_list"]) > 0:
                 print("### Immediate Prereqs")
                 print()
                 print("\n".join(as_md_list(course["prereq_list"])))
@@ -47,16 +47,16 @@ def generate_report(course_list, fp):
                 print("\n".join(as_md_list(course["prereq_chain"])))
                 print()
 
-                if len(course["required_for"]) > 0:
-                    print("## (Directly) Required By")
-                    print()
-                    print("\n".join(as_md_list(course["required_for"])))
-                    print()
+            if len(course["required_for"]) > 0:
+                print("## (Directly) Required By")
+                print()
+                print("\n".join(as_md_list(course["required_for"])))
+                print()
 
-                    print("## (Indirectly) Required By")
-                    print()
-                    print("\n".join(as_md_list(course["required_for_chain"])))
-                    print()
+                print("## (Indirectly) Required By")
+                print()
+                print("\n".join(as_md_list(course["required_for_chain"])))
+                print()
 
 
 if __name__ == "__main__":

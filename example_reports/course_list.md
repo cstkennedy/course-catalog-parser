@@ -86,7 +86,6 @@ MATH 102M or MATH 103M .
 
 ### Indirect Prereqs
 
-  * to 450
   * MATH 103M
   * MATH 102M
 
@@ -110,7 +109,6 @@ MATH 102M or MATH 103M or equivalent.
 
 ### Indirect Prereqs
 
-  * to 450
   * MATH 103M
   * MATH 102M
 
@@ -186,7 +184,6 @@ MATH 102M or MATH 103M and a grade of C or better in CS 150 .
 
   * MATH 103M
   * CS 150
-  * to 450
   * MATH 102M
 
 ## (Directly) Required By
@@ -241,7 +238,6 @@ MATH 162M and a grade of C or better in CS 150 . Pre- or corequisite: CS 252 .
   * CS 252
   * CS 333
   * MATH 102M
-  * to 450
 
 ## (Directly) Required By
 
@@ -308,7 +304,6 @@ A grade of C or better in CS 150 , CS 333 , or IT 205 .
   * CS 333
   * CS 252
   * MATH 102M
-  * to 450
   * IT 210
 
 ## (Directly) Required By
@@ -384,7 +379,6 @@ A grade of C or better in CS 170 and in either CS 150 or CS 333 .
   * CS 333
   * CS 252
   * MATH 102M
-  * to 450
   * IT 210
 
 ## (Directly) Required By
@@ -467,7 +461,6 @@ CS 252 .
   * CS 252
   * CS 333
   * MATH 102M
-  * to 450
   * IT 210
 
 ## (Directly) Required By
@@ -510,7 +503,6 @@ MATH 163 , CS 252 and a grade of C or better in CS 250 or CS 333 .
   * CS 333
   * CS 252
   * MATH 102M
-  * to 450
 
 ## (Directly) Required By
 
@@ -569,7 +561,6 @@ MATH 163 and a grade of C or better in CS 150 or IT 210 (or an equivalent course
   * CS 252
   * CS 333
   * MATH 102M
-  * to 450
   * IT 210
 
 ## (Directly) Required By
@@ -643,7 +634,6 @@ MATH 163 and a grade of C or better in CS 150 (or an equivalent course in a high
   * MATH 103M
   * MATH 162M
   * MATH 102M
-  * to 450
 
 
 # CS 350 - Introduction to Software Engineering
@@ -676,7 +666,6 @@ CS 252 and a grade of C or better in CS 330 or CS 361 .
   * CS 333
   * MATH 102M
   * CS 330
-  * to 450
   * CS 250
   * CS 361
 
@@ -719,7 +708,6 @@ CS 252 and a grade of C or better in CS 250 or CS 333 .
   * CS 333
   * CS 252
   * MATH 102M
-  * to 450
 
 
 # CS 361 - Data Structures and Algorithms
@@ -753,7 +741,6 @@ MATH 163 , CS 252 and a grade of C or better in CS 250 or CS 333 .
   * CS 333
   * CS 252
   * MATH 102M
-  * to 450
 
 ## (Directly) Required By
 
@@ -801,14 +788,6 @@ Available for pass/fail grading only. Student participation for credit based on 
 approval by the CS Department and Career Development Services in accordance with the policy for granting credit for Cooperative Education programs.
 
 
-### Immediate Prereqs
-
-
-
-### Indirect Prereqs
-
-
-
 
 # CS 368 - Computer Science Internship
 
@@ -820,14 +799,6 @@ Available for pass/fail grading only. Academic requirements will be established 
 ## Prerequisites
 
 approval by CS Department and Career Development Services.
-
-
-### Immediate Prereqs
-
-
-
-### Indirect Prereqs
-
 
 
 
@@ -860,7 +831,6 @@ MATH 163 and a grade of C or better in CS 150 or CS 333 .
   * CS 333
   * CS 252
   * MATH 102M
-  * to 450
 
 ## (Directly) Required By
 
@@ -902,7 +872,6 @@ A grade of C or better in CS 250 or CS 333 .
   * CS 333
   * CS 252
   * MATH 102M
-  * to 450
 
 ## (Directly) Required By
 
@@ -944,7 +913,6 @@ A grade of C or better in CS 381 and CS 250 or CS 333 .
   * CS 252
   * MATH 102M
   * CS 381
-  * to 450
 
 
 # CS 395 - Topics in Computer Science
@@ -957,14 +925,6 @@ Special topics in computer science that are not part of the current curriculum a
 ## Prerequisites
 
 permission of the instructor.
-
-
-### Immediate Prereqs
-
-
-
-### Indirect Prereqs
-
 
 
 
@@ -1001,7 +961,6 @@ A grade of C or better in CS 300T and CS 350 .
   * CS 252
   * CS 333
   * MATH 102M
-  * to 450
   * CS 361
 
 
@@ -1043,7 +1002,6 @@ A grade of C or better in ENGL 211C or ENGL 221C or ENGL 231C and a grade of C o
   * CS 333
   * CS 252
   * MATH 102M
-  * to 450
 
 
 # CS 417/517 - Computational Methods and Software
@@ -1078,7 +1036,6 @@ MATH 316 and a grade of C or better in CS 250 or CS 333 .
   * CS 333
   * CS 252
   * MATH 102M
-  * to 450
 
 
 # CS 418/518 - Web Programming
@@ -1112,7 +1069,6 @@ A grade of C or better in CS 312 and CS 330 .
   * CS 333
   * CS 252
   * MATH 102M
-  * to 450
 
 
 # CS 431/531 - Web Server Design
@@ -1135,7 +1091,6 @@ CS 150 , familiarity with Internet and network (including socket) programming.
 
   * MATH 103M
   * CS 150
-  * to 450
   * MATH 102M
 
 
@@ -1169,7 +1124,6 @@ A grade of C or better in CS 361 and CS 330 .
   * CS 333
   * CS 252
   * MATH 102M
-  * to 450
   * CS 361
 
 
@@ -1204,7 +1158,6 @@ CS 330 or CS 382 .
   * CS 333
   * CS 252
   * MATH 102M
-  * to 450
 
 
 # CS 450/550 - Database Concepts
@@ -1240,7 +1193,6 @@ CS 252 and a grade of C or better in CS 381 and either CS 330 or CS 361 .
   * CS 333
   * MATH 102M
   * CS 381
-  * to 450
   * CS 361
 
 
@@ -1274,7 +1226,6 @@ A grade of C or better in CS 330 or CS 361 .
   * CS 333
   * CS 252
   * MATH 102M
-  * to 450
   * CS 361
 
 
@@ -1332,7 +1283,6 @@ CS 250 or CS 333 , CS 252 , CS 270 .
   * CS 333
   * CS 252
   * MATH 102M
-  * to 450
 
 
 # CS 458/558 - Unix System Administration
@@ -1345,14 +1295,6 @@ Laboratory work required. Aspects of administering a SOLARIS/UNIX operating syst
 ## Prerequisites
 
 experience with UNIX.
-
-
-### Immediate Prereqs
-
-
-
-### Indirect Prereqs
-
 
 
 
@@ -1383,7 +1325,6 @@ A grade of C or better in CS 361 .
   * CS 333
   * CS 252
   * MATH 102M
-  * to 450
   * CS 250
   * CS 361
 
@@ -1511,7 +1452,6 @@ A grade of C or better in CS 270 and CS 361 .
   * CS 333
   * CS 252
   * MATH 102M
-  * to 450
   * CS 361
 
 
@@ -1542,7 +1482,6 @@ A grade of C or better in CS 361 .
   * CS 333
   * CS 252
   * MATH 102M
-  * to 450
   * CS 250
   * CS 361
 
@@ -1579,7 +1518,6 @@ STAT 330 and a grade of C or better in CS 330 or CS 361 .
   * CS 333
   * CS 252
   * MATH 102M
-  * to 450
   * CS 361
 
 
@@ -1613,7 +1551,6 @@ A grade of C or better in CS 330 and CS 361 .
   * CS 333
   * CS 252
   * MATH 102M
-  * to 450
   * CS 361
 
 
@@ -1647,7 +1584,6 @@ CS 361 and MATH 211 .
   * CS 333
   * CS 252
   * MATH 102M
-  * to 450
   * CS 250
   * CS 361
 
@@ -1679,7 +1615,6 @@ A grade of C or better in CS 361 .
   * CS 333
   * CS 252
   * MATH 102M
-  * to 450
   * CS 250
   * CS 361
 
@@ -1741,7 +1676,6 @@ A grade of C or better in CS 270 and either CS 361 or CS 330 ; CS 417 or linear 
   * CS 333
   * CS 252
   * MATH 102M
-  * to 450
   * CS 361
 
 
@@ -1772,7 +1706,6 @@ A grade of C or better in CS 361 .
   * CS 333
   * CS 252
   * MATH 102M
-  * to 450
   * CS 250
   * CS 361
 
@@ -1789,14 +1722,6 @@ Special topics.
 permission of the instructor.
 
 
-### Immediate Prereqs
-
-
-
-### Indirect Prereqs
-
-
-
 
 # CS 497/597 - Independent Study in Computer Science
 
@@ -1808,13 +1733,5 @@ Independent study under the direction of an instructor.
 ## Prerequisites
 
 permission of the instructor.
-
-
-### Immediate Prereqs
-
-
-
-### Indirect Prereqs
-
 
 
