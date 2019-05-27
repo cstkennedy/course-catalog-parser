@@ -95,7 +95,7 @@ def split_description(raw_description):
 def sanitize_course_details(number, title, credits, description):
 
     course = {"number": number.replace("\xa0", " "),
-              "title": title,
+              "title": str(title),
               "credits": credits.split("C")[0][:-1]}
 
     # Description processing is a little more fun
