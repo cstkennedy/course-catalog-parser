@@ -14,6 +14,36 @@ import odu_catalog.scraper as scraper
 COURSE_NUM_PATTERN = r"[A-Za-z]{2,} \d{3}[ACGHMNRTW]{0,1}(/\d{3}){0,1}"
 
 
+def download_all_programs():
+
+    base_catalog_url = "http://catalog.odu.edu/courses/"
+
+    if not os.path.exists("courses"):
+        os.mkdir("courses")
+
+    if os.path.exists("courses.html"):
+        with open("courses.html", "r") as courses_file:
+            base_page = courses_file.read()
+
+    else:
+        base_page = scraper.download_page("http://catalog.odu.edu/courses/")
+
+    programs = scraper.extract_program_details(base_page)
+
+    for program in programs:
+        # Trim the trailing and leading slashes
+        file_path = program.path[1:-1] + ".html.gz"
+
+        print(program.abbrev.lower(), file_path)
+
+        program_url = base_catalog_url + program.abbrev.lower()
+
+        if not os.path.exists(file_path):
+            with gzip.open(file_path, "wt") as subject_file:
+                the_page = scraper.download_page(program_url)
+                subject_file.write(the_page)
+
+
 def _extract_prereq_courses(prereq_statement):
 
     return [course.group(0) for course in re.finditer(COURSE_NUM_PATTERN,
@@ -53,34 +83,39 @@ def find_is_required_for(course, all_courses):
         print(", ".join(prereq_to_list))
 
 
-def download_all_programs():
+def extract_prereqs_as_dict(all_courses):
+    """
+    Map course number to immediate prereqs.
 
-    base_catalog_url = "http://catalog.odu.edu/courses/"
+    :param all_courses: list with all course metadata
 
-    if not os.path.exists("courses"):
-        os.mkdir("courses")
+    :returns: sorted dictionary keyed on course number
+    """
 
-    if os.path.exists("courses.html"):
-        with open("courses.html", "r") as courses_file:
-            base_page = courses_file.read()
+    return {crs["number"]: set(crs["prereq_list"]) for crs
+            in sorted(all_courses, key=lambda crs: crs["number"])}
 
-    else:
-        base_page = scraper.download_page("http://catalog.odu.edu/courses/")
 
-    programs = scraper.extract_program_details(base_page)
+def walk_prereq_chains(all_prereqs):
+    """
+    Walk the full prereq chain for each course. If a prereq course is not in
+    the dictionary, skip it.
 
-    for program in programs:
-        # Trim the trailing and leading slashes
-        file_path = program.path[1:-1] + ".html.gz"
+    This can happen if the focus is on CS and CEE was not analyzed (ECE
+    requires a CEE course).
+    """
 
-        print(program.abbrev.lower(), file_path)
+    ignored_courses = []
 
-        program_url = base_catalog_url + program.abbrev.lower()
+    for course in all_prereqs:
+        for prereq in all_prereqs[course]:
+            try:
+                all_prereqs[course] = all_prereqs[course].union(all_prereqs[prereq])
 
-        if not os.path.exists(file_path):
-            with gzip.open(file_path, "wt") as subject_file:
-                the_page = scraper.download_page(program_url)
-                subject_file.write(the_page)
+            except KeyError as e:
+                ignored_courses.append(prereq)
+
+    return ignored_courses
 
 
 if __name__ == "__main__":
@@ -104,6 +139,13 @@ if __name__ == "__main__":
     pp.pprint(courses)
     print("-" * 80)
 
-    for course in courses:
-        # if course["number"].split()[0].lower() in ["math", "cs"]:
-        find_is_required_for(course, courses)
+    all_prereqs = extract_prereqs_as_dict(courses)
+    pp.pprint(all_prereqs)
+
+    ignored_courses = walk_prereq_chains(all_prereqs)
+
+    print("-" * 80)
+    pp.pprint(all_prereqs)
+
+    print("-" * 80)
+    pp.pprint(ignored_courses)
