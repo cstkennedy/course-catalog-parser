@@ -22,10 +22,10 @@ CEE 111 or ECE 111 or ENGT 111 or MAE 111 or MSIM 111 .
 ### Indirect Prereqs
 
   * CEE 111
+  * ECE 111
+  * ENGT 111
   * MAE 111
   * MSIM 111
-  * ENGT 111
-  * ECE 111
 
 
 # CS 120G - Introduction to Information Literacy and Research
@@ -86,8 +86,8 @@ MATH 102M or MATH 103M .
 
 ### Indirect Prereqs
 
-  * MATH 103M
   * MATH 102M
+  * MATH 103M
 
 
 # CS 150 - Problem Solving and Programming I
@@ -109,8 +109,8 @@ MATH 102M or MATH 103M or equivalent.
 
 ### Indirect Prereqs
 
-  * MATH 103M
   * MATH 102M
+  * MATH 103M
 
 ## (Directly) Required By
 
@@ -176,15 +176,15 @@ MATH 102M or MATH 103M and a grade of C or better in CS 150 .
 
 ### Immediate Prereqs
 
+  * CS 150
   * MATH 102M
   * MATH 103M
-  * CS 150
 
 ### Indirect Prereqs
 
-  * MATH 103M
   * CS 150
   * MATH 102M
+  * MATH 103M
 
 ## (Directly) Required By
 
@@ -225,19 +225,19 @@ MATH 162M and a grade of C or better in CS 150 . Pre- or corequisite: CS 252 .
 
 ### Immediate Prereqs
 
-  * MATH 162M
   * CS 150
   * CS 252
+  * MATH 162M
 
 ### Indirect Prereqs
 
   * CS 150
-  * MATH 162M
-  * MATH 103M
-  * IT 205
   * CS 252
   * CS 333
+  * IT 205
   * MATH 102M
+  * MATH 103M
+  * MATH 162M
 
 ## (Directly) Required By
 
@@ -297,14 +297,14 @@ A grade of C or better in CS 150 , CS 333 , or IT 205 .
 
 ### Indirect Prereqs
 
-  * MATH 163
   * CS 150
-  * MATH 103M
-  * IT 205
-  * CS 333
   * CS 252
-  * MATH 102M
+  * CS 333
+  * IT 205
   * IT 210
+  * MATH 102M
+  * MATH 103M
+  * MATH 163
 
 ## (Directly) Required By
 
@@ -366,20 +366,20 @@ A grade of C or better in CS 170 and in either CS 150 or CS 333 .
 
 ### Immediate Prereqs
 
-  * CS 170
   * CS 150
+  * CS 170
   * CS 333
 
 ### Indirect Prereqs
 
-  * MATH 163
   * CS 150
   * CS 170
-  * MATH 103M
-  * CS 333
   * CS 252
-  * MATH 102M
+  * CS 333
   * IT 210
+  * MATH 102M
+  * MATH 103M
+  * MATH 163
 
 ## (Directly) Required By
 
@@ -454,14 +454,14 @@ CS 252 .
 
 ### Indirect Prereqs
 
-  * MATH 163
   * CS 150
-  * MATH 103M
-  * IT 205
   * CS 252
   * CS 333
-  * MATH 102M
+  * IT 205
   * IT 210
+  * MATH 102M
+  * MATH 103M
+  * MATH 163
 
 ## (Directly) Required By
 
@@ -486,23 +486,23 @@ MATH 163 , CS 252 and a grade of C or better in CS 250 or CS 333 .
 
 ### Immediate Prereqs
 
-  * MATH 163
-  * CS 252
   * CS 250
+  * CS 252
   * CS 333
+  * MATH 163
 
 ### Indirect Prereqs
 
-  * MATH 103M
-  * IT 210
-  * CS 250
-  * MATH 163
   * CS 150
-  * MATH 162M
-  * IT 205
-  * CS 333
+  * CS 250
   * CS 252
+  * CS 333
+  * IT 205
+  * IT 210
   * MATH 102M
+  * MATH 103M
+  * MATH 162M
+  * MATH 163
 
 ## (Directly) Required By
 
@@ -546,22 +546,22 @@ MATH 163 and a grade of C or better in CS 150 or IT 210 (or an equivalent course
 
 ### Immediate Prereqs
 
-  * MATH 163
   * CS 150
-  * IT 210
   * CS 252
+  * IT 210
+  * MATH 163
 
 ### Indirect Prereqs
 
-  * MATH 163
   * CS 150
-  * MATH 162M
-  * MATH 103M
-  * IT 205
   * CS 252
   * CS 333
-  * MATH 102M
+  * IT 205
   * IT 210
+  * MATH 102M
+  * MATH 103M
+  * MATH 162M
+  * MATH 163
 
 ## (Directly) Required By
 
@@ -624,16 +624,16 @@ MATH 163 and a grade of C or better in CS 150 (or an equivalent course in a high
 
 ### Immediate Prereqs
 
-  * MATH 163
   * CS 150
+  * MATH 163
 
 ### Indirect Prereqs
 
-  * MATH 163
   * CS 150
+  * MATH 102M
   * MATH 103M
   * MATH 162M
-  * MATH 102M
+  * MATH 163
 
 
 # CS 350 - Introduction to Software Engineering
@@ -656,18 +656,18 @@ CS 252 and a grade of C or better in CS 330 or CS 361 .
 
 ### Indirect Prereqs
 
-  * MATH 163
   * CS 150
-  * MATH 162M
-  * IT 210
-  * MATH 103M
-  * IT 205
-  * CS 252
-  * CS 333
-  * MATH 102M
-  * CS 330
   * CS 250
+  * CS 252
+  * CS 330
+  * CS 333
   * CS 361
+  * IT 205
+  * IT 210
+  * MATH 102M
+  * MATH 103M
+  * MATH 162M
+  * MATH 163
 
 ## (Directly) Required By
 
@@ -692,22 +692,22 @@ CS 252 and a grade of C or better in CS 250 or CS 333 .
 
 ### Immediate Prereqs
 
-  * CS 252
   * CS 250
+  * CS 252
   * CS 333
 
 ### Indirect Prereqs
 
-  * MATH 103M
-  * CS 250
-  * IT 210
-  * MATH 163
   * CS 150
-  * MATH 162M
-  * IT 205
-  * CS 333
+  * CS 250
   * CS 252
+  * CS 333
+  * IT 205
+  * IT 210
   * MATH 102M
+  * MATH 103M
+  * MATH 162M
+  * MATH 163
 
 
 # CS 361 - Data Structures and Algorithms
@@ -724,23 +724,23 @@ MATH 163 , CS 252 and a grade of C or better in CS 250 or CS 333 .
 
 ### Immediate Prereqs
 
-  * MATH 163
-  * CS 252
   * CS 250
+  * CS 252
   * CS 333
+  * MATH 163
 
 ### Indirect Prereqs
 
-  * MATH 103M
-  * CS 250
-  * IT 210
-  * MATH 163
   * CS 150
-  * MATH 162M
-  * IT 205
-  * CS 333
+  * CS 250
   * CS 252
+  * CS 333
+  * IT 205
+  * IT 210
   * MATH 102M
+  * MATH 103M
+  * MATH 162M
+  * MATH 163
 
 ## (Directly) Required By
 
@@ -816,21 +816,21 @@ MATH 163 and a grade of C or better in CS 150 or CS 333 .
 
 ### Immediate Prereqs
 
-  * MATH 163
   * CS 150
   * CS 333
+  * MATH 163
 
 ### Indirect Prereqs
 
-  * MATH 103M
-  * IT 210
-  * MATH 163
   * CS 150
-  * MATH 162M
-  * IT 205
-  * CS 333
   * CS 252
+  * CS 333
+  * IT 205
+  * IT 210
   * MATH 102M
+  * MATH 103M
+  * MATH 162M
+  * MATH 163
 
 ## (Directly) Required By
 
@@ -862,16 +862,16 @@ A grade of C or better in CS 250 or CS 333 .
 
 ### Indirect Prereqs
 
-  * MATH 103M
-  * IT 210
-  * CS 250
-  * MATH 163
   * CS 150
-  * MATH 162M
-  * IT 205
-  * CS 333
+  * CS 250
   * CS 252
+  * CS 333
+  * IT 205
+  * IT 210
   * MATH 102M
+  * MATH 103M
+  * MATH 162M
+  * MATH 163
 
 ## (Directly) Required By
 
@@ -896,23 +896,23 @@ A grade of C or better in CS 381 and CS 250 or CS 333 .
 
 ### Immediate Prereqs
 
-  * CS 381
   * CS 250
   * CS 333
+  * CS 381
 
 ### Indirect Prereqs
 
-  * MATH 103M
-  * CS 250
-  * IT 210
-  * MATH 163
   * CS 150
-  * MATH 162M
-  * IT 205
-  * CS 333
+  * CS 250
   * CS 252
-  * MATH 102M
+  * CS 333
   * CS 381
+  * IT 205
+  * IT 210
+  * MATH 102M
+  * MATH 103M
+  * MATH 162M
+  * MATH 163
 
 
 # CS 395 - Topics in Computer Science
@@ -947,21 +947,21 @@ A grade of C or better in CS 300T and CS 350 .
 
 ### Indirect Prereqs
 
-  * CS 300T
-  * MATH 103M
-  * CS 330
-  * ENGL 110C
-  * CS 350
-  * IT 210
-  * CS 250
-  * MATH 163
   * CS 150
-  * MATH 162M
-  * IT 205
+  * CS 250
   * CS 252
+  * CS 300T
+  * CS 330
   * CS 333
-  * MATH 102M
+  * CS 350
   * CS 361
+  * ENGL 110C
+  * IT 205
+  * IT 210
+  * MATH 102M
+  * MATH 103M
+  * MATH 162M
+  * MATH 163
 
 
 # CS 411W/511 - Professional Workforce Development II
@@ -978,30 +978,30 @@ A grade of C or better in ENGL 211C or ENGL 221C or ENGL 231C and a grade of C o
 
 ### Immediate Prereqs
 
+  * CS 330
+  * CS 410
   * ENGL 211C
   * ENGL 221C
   * ENGL 231C
-  * CS 330
-  * CS 410
 
 ### Indirect Prereqs
 
-  * ENGL 221C
-  * CS 410
-  * MATH 103M
-  * CS 330
-  * ENGL 110C
-  * IT 210
-  * CS 250
-  * ENGL 211C
-  * MATH 163
   * CS 150
-  * MATH 162M
+  * CS 250
+  * CS 252
+  * CS 330
+  * CS 333
+  * CS 410
+  * ENGL 110C
+  * ENGL 211C
+  * ENGL 221C
   * ENGL 231C
   * IT 205
-  * CS 333
-  * CS 252
+  * IT 210
   * MATH 102M
+  * MATH 103M
+  * MATH 162M
+  * MATH 163
 
 
 # CS 417/517 - Computational Methods and Software
@@ -1018,24 +1018,24 @@ MATH 316 and a grade of C or better in CS 250 or CS 333 .
 
 ### Immediate Prereqs
 
-  * MATH 316
   * CS 250
   * CS 333
+  * MATH 316
 
 ### Indirect Prereqs
 
+  * CS 150
+  * CS 250
+  * CS 252
+  * CS 333
+  * IT 205
+  * IT 210
+  * MATH 102M
   * MATH 103M
+  * MATH 162M
+  * MATH 163
   * MATH 212
   * MATH 316
-  * IT 210
-  * CS 250
-  * MATH 163
-  * CS 150
-  * MATH 162M
-  * IT 205
-  * CS 333
-  * CS 252
-  * MATH 102M
 
 
 # CS 418/518 - Web Programming
@@ -1057,18 +1057,18 @@ A grade of C or better in CS 312 and CS 330 .
 
 ### Indirect Prereqs
 
-  * CS 312
-  * MATH 103M
-  * CS 330
-  * CS 250
-  * IT 210
-  * MATH 163
   * CS 150
-  * MATH 162M
-  * IT 205
-  * CS 333
+  * CS 250
   * CS 252
+  * CS 312
+  * CS 330
+  * CS 333
+  * IT 205
+  * IT 210
   * MATH 102M
+  * MATH 103M
+  * MATH 162M
+  * MATH 163
 
 
 # CS 431/531 - Web Server Design
@@ -1089,9 +1089,9 @@ CS 150 , familiarity with Internet and network (including socket) programming.
 
 ### Indirect Prereqs
 
-  * MATH 103M
   * CS 150
   * MATH 102M
+  * MATH 103M
 
 
 # CS 432/532 - Web Science
@@ -1108,23 +1108,23 @@ A grade of C or better in CS 361 and CS 330 .
 
 ### Immediate Prereqs
 
-  * CS 361
   * CS 330
+  * CS 361
 
 ### Indirect Prereqs
 
-  * MATH 103M
-  * CS 330
-  * CS 250
-  * IT 210
-  * MATH 163
   * CS 150
-  * MATH 162M
-  * IT 205
-  * CS 333
+  * CS 250
   * CS 252
-  * MATH 102M
+  * CS 330
+  * CS 333
   * CS 361
+  * IT 205
+  * IT 210
+  * MATH 102M
+  * MATH 103M
+  * MATH 162M
+  * MATH 163
 
 
 # CS 441/541 - App Development for Smart Devices
@@ -1146,18 +1146,18 @@ CS 330 or CS 382 .
 
 ### Indirect Prereqs
 
-  * MATH 103M
-  * CS 330
-  * CS 250
-  * IT 210
-  * MATH 163
   * CS 150
-  * MATH 162M
+  * CS 250
+  * CS 252
+  * CS 330
+  * CS 333
   * CS 382
   * IT 205
-  * CS 333
-  * CS 252
+  * IT 210
   * MATH 102M
+  * MATH 103M
+  * MATH 162M
+  * MATH 163
 
 
 # CS 450/550 - Database Concepts
@@ -1175,25 +1175,25 @@ CS 252 and a grade of C or better in CS 381 and either CS 330 or CS 361 .
 ### Immediate Prereqs
 
   * CS 252
-  * CS 381
   * CS 330
   * CS 361
+  * CS 381
 
 ### Indirect Prereqs
 
-  * MATH 103M
-  * CS 330
-  * CS 250
-  * IT 210
-  * MATH 163
   * CS 150
-  * MATH 162M
-  * IT 205
+  * CS 250
   * CS 252
+  * CS 330
   * CS 333
-  * MATH 102M
-  * CS 381
   * CS 361
+  * CS 381
+  * IT 205
+  * IT 210
+  * MATH 102M
+  * MATH 103M
+  * MATH 162M
+  * MATH 163
 
 
 # CS 451/551 - Software Engineering Survey
@@ -1215,18 +1215,18 @@ A grade of C or better in CS 330 or CS 361 .
 
 ### Indirect Prereqs
 
-  * MATH 103M
-  * CS 330
-  * CS 250
-  * IT 210
-  * MATH 163
   * CS 150
-  * MATH 162M
-  * IT 205
-  * CS 333
+  * CS 250
   * CS 252
-  * MATH 102M
+  * CS 330
+  * CS 333
   * CS 361
+  * IT 205
+  * IT 210
+  * MATH 102M
+  * MATH 103M
+  * MATH 162M
+  * MATH 163
 
 
 # CS 454/554 - Network Management
@@ -1265,24 +1265,24 @@ CS 250 or CS 333 , CS 252 , CS 270 .
 ### Immediate Prereqs
 
   * CS 250
-  * CS 333
   * CS 252
   * CS 270
+  * CS 333
 
 ### Indirect Prereqs
 
-  * CS 170
-  * MATH 103M
-  * IT 210
-  * CS 250
-  * MATH 163
   * CS 150
-  * MATH 162M
-  * CS 270
-  * IT 205
-  * CS 333
+  * CS 170
+  * CS 250
   * CS 252
+  * CS 270
+  * CS 333
+  * IT 205
+  * IT 210
   * MATH 102M
+  * MATH 103M
+  * MATH 162M
+  * MATH 163
 
 
 # CS 458/558 - Unix System Administration
@@ -1316,17 +1316,17 @@ A grade of C or better in CS 361 .
 
 ### Indirect Prereqs
 
-  * MATH 163
   * CS 150
-  * MATH 162M
-  * IT 210
-  * MATH 103M
-  * IT 205
-  * CS 333
-  * CS 252
-  * MATH 102M
   * CS 250
+  * CS 252
+  * CS 333
   * CS 361
+  * IT 205
+  * IT 210
+  * MATH 102M
+  * MATH 103M
+  * MATH 162M
+  * MATH 163
 
 
 # CS 462/562 - Cybersecurity Fundamentals
@@ -1347,9 +1347,9 @@ MATH 162M .
 
 ### Indirect Prereqs
 
-  * MATH 162M
-  * MATH 103M
   * MATH 102M
+  * MATH 103M
+  * MATH 162M
 
 
 # CS 463/563 - Cryptography for Cybersecurity
@@ -1370,9 +1370,9 @@ MATH 162M .
 
 ### Indirect Prereqs
 
-  * MATH 162M
-  * MATH 103M
   * MATH 102M
+  * MATH 103M
+  * MATH 162M
 
 
 # CS 464/564 - Networked Systems Security
@@ -1393,9 +1393,9 @@ MATH 162M .
 
 ### Indirect Prereqs
 
-  * MATH 162M
-  * MATH 103M
   * MATH 102M
+  * MATH 103M
+  * MATH 162M
 
 
 # CS 465/565 - Information Assurance
@@ -1416,9 +1416,9 @@ MATH 162M and familiarity with computer security area.
 
 ### Indirect Prereqs
 
-  * MATH 162M
-  * MATH 103M
   * MATH 102M
+  * MATH 103M
+  * MATH 162M
 
 
 # CS 471 - Operating Systems
@@ -1440,19 +1440,19 @@ A grade of C or better in CS 270 and CS 361 .
 
 ### Indirect Prereqs
 
-  * CS 170
-  * MATH 103M
-  * IT 210
-  * CS 250
-  * MATH 163
   * CS 150
-  * MATH 162M
-  * CS 270
-  * IT 205
-  * CS 333
+  * CS 170
+  * CS 250
   * CS 252
-  * MATH 102M
+  * CS 270
+  * CS 333
   * CS 361
+  * IT 205
+  * IT 210
+  * MATH 102M
+  * MATH 103M
+  * MATH 162M
+  * MATH 163
 
 
 # CS 472 - Network and Systems Security
@@ -1473,17 +1473,17 @@ A grade of C or better in CS 361 .
 
 ### Indirect Prereqs
 
-  * MATH 163
   * CS 150
-  * MATH 162M
-  * IT 210
-  * MATH 103M
-  * IT 205
-  * CS 333
-  * CS 252
-  * MATH 102M
   * CS 250
+  * CS 252
+  * CS 333
   * CS 361
+  * IT 205
+  * IT 210
+  * MATH 102M
+  * MATH 103M
+  * MATH 162M
+  * MATH 163
 
 
 # CS 475/575 - Introduction to Computer Simulation
@@ -1500,25 +1500,25 @@ STAT 330 and a grade of C or better in CS 330 or CS 361 .
 
 ### Immediate Prereqs
 
-  * STAT 330
   * CS 330
   * CS 361
+  * STAT 330
 
 ### Indirect Prereqs
 
-  * MATH 103M
-  * STAT 330
-  * CS 330
-  * CS 250
-  * IT 210
-  * MATH 163
   * CS 150
-  * MATH 162M
-  * IT 205
-  * CS 333
+  * CS 250
   * CS 252
-  * MATH 102M
+  * CS 330
+  * CS 333
   * CS 361
+  * IT 205
+  * IT 210
+  * MATH 102M
+  * MATH 103M
+  * MATH 162M
+  * MATH 163
+  * STAT 330
 
 
 # CS 476/576 - Systems Programming
@@ -1540,18 +1540,18 @@ A grade of C or better in CS 330 and CS 361 .
 
 ### Indirect Prereqs
 
-  * MATH 103M
-  * CS 330
-  * CS 250
-  * IT 210
-  * MATH 163
   * CS 150
-  * MATH 162M
-  * IT 205
-  * CS 333
+  * CS 250
   * CS 252
-  * MATH 102M
+  * CS 330
+  * CS 333
   * CS 361
+  * IT 205
+  * IT 210
+  * MATH 102M
+  * MATH 103M
+  * MATH 162M
+  * MATH 163
 
 
 # CS 478/578 - Computational Geometry, Methods and Applications
@@ -1573,19 +1573,19 @@ CS 361 and MATH 211 .
 
 ### Indirect Prereqs
 
-  * MATH 163
   * CS 150
-  * MATH 162M
-  * IT 210
-  * MATH 103M
-  * MATH 211
-  * IT 205
-  * MATH 166
-  * CS 333
-  * CS 252
-  * MATH 102M
   * CS 250
+  * CS 252
+  * CS 333
   * CS 361
+  * IT 205
+  * IT 210
+  * MATH 102M
+  * MATH 103M
+  * MATH 162M
+  * MATH 163
+  * MATH 166
+  * MATH 211
 
 
 # CS 480/580 - Introduction to Artificial Intelligence
@@ -1606,17 +1606,17 @@ A grade of C or better in CS 361 .
 
 ### Indirect Prereqs
 
-  * MATH 163
   * CS 150
-  * MATH 162M
-  * IT 210
-  * MATH 103M
-  * IT 205
-  * CS 333
-  * CS 252
-  * MATH 102M
   * CS 250
+  * CS 252
+  * CS 333
   * CS 361
+  * IT 205
+  * IT 210
+  * MATH 102M
+  * MATH 103M
+  * MATH 162M
+  * MATH 163
 
 
 # CS 486/586 - Introduction to Parallel Computing
@@ -1656,27 +1656,27 @@ A grade of C or better in CS 270 and either CS 361 or CS 330 ; CS 417 or linear 
 ### Immediate Prereqs
 
   * CS 270
-  * CS 361
   * CS 330
+  * CS 361
   * CS 417
 
 ### Indirect Prereqs
 
-  * CS 170
-  * MATH 103M
-  * CS 330
-  * CS 250
-  * IT 210
-  * MATH 163
   * CS 150
-  * MATH 162M
-  * CS 270
-  * IT 205
-  * CS 417
-  * CS 333
+  * CS 170
+  * CS 250
   * CS 252
-  * MATH 102M
+  * CS 270
+  * CS 330
+  * CS 333
   * CS 361
+  * CS 417
+  * IT 205
+  * IT 210
+  * MATH 102M
+  * MATH 103M
+  * MATH 162M
+  * MATH 163
 
 
 # CS 488/588 - Principles of Compiler Construction
@@ -1697,17 +1697,17 @@ A grade of C or better in CS 361 .
 
 ### Indirect Prereqs
 
-  * MATH 163
   * CS 150
-  * MATH 162M
-  * IT 210
-  * MATH 103M
-  * IT 205
-  * CS 333
-  * CS 252
-  * MATH 102M
   * CS 250
+  * CS 252
+  * CS 333
   * CS 361
+  * IT 205
+  * IT 210
+  * MATH 102M
+  * MATH 103M
+  * MATH 162M
+  * MATH 163
 
 
 # CS 495/595 - Topics in Computer Science

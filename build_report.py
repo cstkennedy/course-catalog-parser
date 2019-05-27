@@ -27,7 +27,7 @@ COURSE_TEMPLATE = """
 
 def as_md_list(crs_list):
 
-    for crs in crs_list:
+    for crs in sorted(crs_list):
         yield f"  * {crs}"
 
 
