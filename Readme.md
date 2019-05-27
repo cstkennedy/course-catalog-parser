@@ -8,11 +8,11 @@
 3. Prereq extraction is based purely on finding numbers that fit the regular
    expression `[A-Za-z]{2,} \d{3}[ACGHMNRTW]{0,1}(/\d{3}){0,1}`.
 
-    - This results in listings such as `Engl 3xx to 3xx` generating both `Engl 3xx`
-      and `to 3xx`.
+  - This results in listings such as `Engl 3xx to 3xx` generating both `Engl 3xx`
+    and `to 3xx`.
 
-    - This results in cases (of laziness) where the subject was omitted from a list
-      (e.g., `Math 102M or 103M`) being partially processed.
+  - This results in cases (of laziness) where the subject was omitted from a list
+    (e.g., `Math 102M or 103M`) being partially processed.
 
 
 # HTML Format Assumptions
