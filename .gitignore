@@ -7,3 +7,16 @@
 **.gz
 **.json
 *.md
+
+
+# Latex
+**.aux
+**.toc
+**.dvi
+**latexmk
+**.fls
+**.log
+**.out
+
+**.pdf
+**.PDF
