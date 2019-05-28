@@ -81,13 +81,11 @@ MATH 102M or MATH 103M .
 
 ### Immediate Prereqs
 
-  * MATH 102M
-  * MATH 103M
+  * MATH 102M or MATH 103M
 
 ### Indirect Prereqs
 
-  * MATH 102M
-  * MATH 103M
+  * MATH 102M or MATH 103M
 
 
 # CS 150 - Problem Solving and Programming I
@@ -104,13 +102,11 @@ MATH 102M or MATH 103M or equivalent.
 
 ### Immediate Prereqs
 
-  * MATH 102M
-  * MATH 103M
+  * MATH 102M or MATH 103M
 
 ### Indirect Prereqs
 
-  * MATH 102M
-  * MATH 103M
+  * MATH 102M or MATH 103M
 
 ## (Directly) Required By
 
@@ -177,14 +173,12 @@ MATH 102M or MATH 103M and a grade of C or better in CS 150 .
 ### Immediate Prereqs
 
   * CS 150
-  * MATH 102M
-  * MATH 103M
+  * MATH 102M or MATH 103M
 
 ### Indirect Prereqs
 
   * CS 150
-  * MATH 102M
-  * MATH 103M
+  * MATH 102M or MATH 103M
 
 ## (Directly) Required By
 
@@ -234,9 +228,7 @@ MATH 162M and a grade of C or better in CS 150 . Pre- or corequisite: CS 252 .
   * CS 150
   * CS 252
   * CS 333
-  * IT 205
-  * MATH 102M
-  * MATH 103M
+  * MATH 102M or MATH 103M
   * MATH 162M
 
 ## (Directly) Required By
@@ -293,17 +285,13 @@ A grade of C or better in CS 150 , CS 333 , or IT 205 .
 
   * CS 150
   * CS 333
-  * IT 205
 
 ### Indirect Prereqs
 
   * CS 150
   * CS 252
   * CS 333
-  * IT 205
-  * IT 210
-  * MATH 102M
-  * MATH 103M
+  * MATH 102M or MATH 103M
   * MATH 163
 
 ## (Directly) Required By
@@ -376,9 +364,7 @@ A grade of C or better in CS 170 and in either CS 150 or CS 333 .
   * CS 170
   * CS 252
   * CS 333
-  * IT 210
-  * MATH 102M
-  * MATH 103M
+  * MATH 102M or MATH 103M
   * MATH 163
 
 ## (Directly) Required By
@@ -457,10 +443,7 @@ CS 252 .
   * CS 150
   * CS 252
   * CS 333
-  * IT 205
-  * IT 210
-  * MATH 102M
-  * MATH 103M
+  * MATH 102M or MATH 103M
   * MATH 163
 
 ## (Directly) Required By
@@ -497,10 +480,7 @@ MATH 163 , CS 252 and a grade of C or better in CS 250 or CS 333 .
   * CS 250
   * CS 252
   * CS 333
-  * IT 205
-  * IT 210
-  * MATH 102M
-  * MATH 103M
+  * MATH 102M or MATH 103M
   * MATH 162M
   * MATH 163
 
@@ -548,7 +528,6 @@ MATH 163 and a grade of C or better in CS 150 or IT 210 (or an equivalent course
 
   * CS 150
   * CS 252
-  * IT 210
   * MATH 163
 
 ### Indirect Prereqs
@@ -556,10 +535,7 @@ MATH 163 and a grade of C or better in CS 150 or IT 210 (or an equivalent course
   * CS 150
   * CS 252
   * CS 333
-  * IT 205
-  * IT 210
-  * MATH 102M
-  * MATH 103M
+  * MATH 102M or MATH 103M
   * MATH 162M
   * MATH 163
 
@@ -630,8 +606,7 @@ MATH 163 and a grade of C or better in CS 150 (or an equivalent course in a high
 ### Indirect Prereqs
 
   * CS 150
-  * MATH 102M
-  * MATH 103M
+  * MATH 102M or MATH 103M
   * MATH 162M
   * MATH 163
 
@@ -662,10 +637,7 @@ CS 252 and a grade of C or better in CS 330 or CS 361 .
   * CS 330
   * CS 333
   * CS 361
-  * IT 205
-  * IT 210
-  * MATH 102M
-  * MATH 103M
+  * MATH 102M or MATH 103M
   * MATH 162M
   * MATH 163
 
@@ -702,10 +674,7 @@ CS 252 and a grade of C or better in CS 250 or CS 333 .
   * CS 250
   * CS 252
   * CS 333
-  * IT 205
-  * IT 210
-  * MATH 102M
-  * MATH 103M
+  * MATH 102M or MATH 103M
   * MATH 162M
   * MATH 163
 
@@ -735,10 +704,7 @@ MATH 163 , CS 252 and a grade of C or better in CS 250 or CS 333 .
   * CS 250
   * CS 252
   * CS 333
-  * IT 205
-  * IT 210
-  * MATH 102M
-  * MATH 103M
+  * MATH 102M or MATH 103M
   * MATH 162M
   * MATH 163
 
@@ -825,10 +791,7 @@ MATH 163 and a grade of C or better in CS 150 or CS 333 .
   * CS 150
   * CS 252
   * CS 333
-  * IT 205
-  * IT 210
-  * MATH 102M
-  * MATH 103M
+  * MATH 102M or MATH 103M
   * MATH 162M
   * MATH 163
 
@@ -866,10 +829,7 @@ A grade of C or better in CS 250 or CS 333 .
   * CS 250
   * CS 252
   * CS 333
-  * IT 205
-  * IT 210
-  * MATH 102M
-  * MATH 103M
+  * MATH 102M or MATH 103M
   * MATH 162M
   * MATH 163
 
@@ -907,10 +867,7 @@ A grade of C or better in CS 381 and CS 250 or CS 333 .
   * CS 252
   * CS 333
   * CS 381
-  * IT 205
-  * IT 210
-  * MATH 102M
-  * MATH 103M
+  * MATH 102M or MATH 103M
   * MATH 162M
   * MATH 163
 
@@ -956,10 +913,7 @@ A grade of C or better in CS 300T and CS 350 .
   * CS 350
   * CS 361
   * ENGL 110C
-  * IT 205
-  * IT 210
-  * MATH 102M
-  * MATH 103M
+  * MATH 102M or MATH 103M
   * MATH 162M
   * MATH 163
 
@@ -996,10 +950,7 @@ A grade of C or better in ENGL 211C or ENGL 221C or ENGL 231C and a grade of C o
   * ENGL 211C
   * ENGL 221C
   * ENGL 231C
-  * IT 205
-  * IT 210
-  * MATH 102M
-  * MATH 103M
+  * MATH 102M or MATH 103M
   * MATH 162M
   * MATH 163
 
@@ -1028,10 +979,7 @@ MATH 316 and a grade of C or better in CS 250 or CS 333 .
   * CS 250
   * CS 252
   * CS 333
-  * IT 205
-  * IT 210
-  * MATH 102M
-  * MATH 103M
+  * MATH 102M or MATH 103M
   * MATH 162M
   * MATH 163
   * MATH 212
@@ -1063,10 +1011,7 @@ A grade of C or better in CS 312 and CS 330 .
   * CS 312
   * CS 330
   * CS 333
-  * IT 205
-  * IT 210
-  * MATH 102M
-  * MATH 103M
+  * MATH 102M or MATH 103M
   * MATH 162M
   * MATH 163
 
@@ -1090,8 +1035,7 @@ CS 150 , familiarity with Internet and network (including socket) programming.
 ### Indirect Prereqs
 
   * CS 150
-  * MATH 102M
-  * MATH 103M
+  * MATH 102M or MATH 103M
 
 
 # CS 432/532 - Web Science
@@ -1119,10 +1063,7 @@ A grade of C or better in CS 361 and CS 330 .
   * CS 330
   * CS 333
   * CS 361
-  * IT 205
-  * IT 210
-  * MATH 102M
-  * MATH 103M
+  * MATH 102M or MATH 103M
   * MATH 162M
   * MATH 163
 
@@ -1152,10 +1093,7 @@ CS 330 or CS 382 .
   * CS 330
   * CS 333
   * CS 382
-  * IT 205
-  * IT 210
-  * MATH 102M
-  * MATH 103M
+  * MATH 102M or MATH 103M
   * MATH 162M
   * MATH 163
 
@@ -1188,10 +1126,7 @@ CS 252 and a grade of C or better in CS 381 and either CS 330 or CS 361 .
   * CS 333
   * CS 361
   * CS 381
-  * IT 205
-  * IT 210
-  * MATH 102M
-  * MATH 103M
+  * MATH 102M or MATH 103M
   * MATH 162M
   * MATH 163
 
@@ -1221,10 +1156,7 @@ A grade of C or better in CS 330 or CS 361 .
   * CS 330
   * CS 333
   * CS 361
-  * IT 205
-  * IT 210
-  * MATH 102M
-  * MATH 103M
+  * MATH 102M or MATH 103M
   * MATH 162M
   * MATH 163
 
@@ -1277,10 +1209,7 @@ CS 250 or CS 333 , CS 252 , CS 270 .
   * CS 252
   * CS 270
   * CS 333
-  * IT 205
-  * IT 210
-  * MATH 102M
-  * MATH 103M
+  * MATH 102M or MATH 103M
   * MATH 162M
   * MATH 163
 
@@ -1321,10 +1250,7 @@ A grade of C or better in CS 361 .
   * CS 252
   * CS 333
   * CS 361
-  * IT 205
-  * IT 210
-  * MATH 102M
-  * MATH 103M
+  * MATH 102M or MATH 103M
   * MATH 162M
   * MATH 163
 
@@ -1347,8 +1273,7 @@ MATH 162M .
 
 ### Indirect Prereqs
 
-  * MATH 102M
-  * MATH 103M
+  * MATH 102M or MATH 103M
   * MATH 162M
 
 
@@ -1370,8 +1295,7 @@ MATH 162M .
 
 ### Indirect Prereqs
 
-  * MATH 102M
-  * MATH 103M
+  * MATH 102M or MATH 103M
   * MATH 162M
 
 
@@ -1393,8 +1317,7 @@ MATH 162M .
 
 ### Indirect Prereqs
 
-  * MATH 102M
-  * MATH 103M
+  * MATH 102M or MATH 103M
   * MATH 162M
 
 
@@ -1416,8 +1339,7 @@ MATH 162M and familiarity with computer security area.
 
 ### Indirect Prereqs
 
-  * MATH 102M
-  * MATH 103M
+  * MATH 102M or MATH 103M
   * MATH 162M
 
 
@@ -1447,10 +1369,7 @@ A grade of C or better in CS 270 and CS 361 .
   * CS 270
   * CS 333
   * CS 361
-  * IT 205
-  * IT 210
-  * MATH 102M
-  * MATH 103M
+  * MATH 102M or MATH 103M
   * MATH 162M
   * MATH 163
 
@@ -1478,10 +1397,7 @@ A grade of C or better in CS 361 .
   * CS 252
   * CS 333
   * CS 361
-  * IT 205
-  * IT 210
-  * MATH 102M
-  * MATH 103M
+  * MATH 102M or MATH 103M
   * MATH 162M
   * MATH 163
 
@@ -1512,10 +1428,7 @@ STAT 330 and a grade of C or better in CS 330 or CS 361 .
   * CS 330
   * CS 333
   * CS 361
-  * IT 205
-  * IT 210
-  * MATH 102M
-  * MATH 103M
+  * MATH 102M or MATH 103M
   * MATH 162M
   * MATH 163
   * STAT 330
@@ -1546,10 +1459,7 @@ A grade of C or better in CS 330 and CS 361 .
   * CS 330
   * CS 333
   * CS 361
-  * IT 205
-  * IT 210
-  * MATH 102M
-  * MATH 103M
+  * MATH 102M or MATH 103M
   * MATH 162M
   * MATH 163
 
@@ -1578,10 +1488,7 @@ CS 361 and MATH 211 .
   * CS 252
   * CS 333
   * CS 361
-  * IT 205
-  * IT 210
-  * MATH 102M
-  * MATH 103M
+  * MATH 102M or MATH 103M
   * MATH 162M
   * MATH 163
   * MATH 166
@@ -1611,10 +1518,7 @@ A grade of C or better in CS 361 .
   * CS 252
   * CS 333
   * CS 361
-  * IT 205
-  * IT 210
-  * MATH 102M
-  * MATH 103M
+  * MATH 102M or MATH 103M
   * MATH 162M
   * MATH 163
 
@@ -1671,10 +1575,7 @@ A grade of C or better in CS 270 and either CS 361 or CS 330 ; CS 417 or linear 
   * CS 333
   * CS 361
   * CS 417
-  * IT 205
-  * IT 210
-  * MATH 102M
-  * MATH 103M
+  * MATH 102M or MATH 103M
   * MATH 162M
   * MATH 163
 
@@ -1702,10 +1603,7 @@ A grade of C or better in CS 361 .
   * CS 252
   * CS 333
   * CS 361
-  * IT 205
-  * IT 210
-  * MATH 102M
-  * MATH 103M
+  * MATH 102M or MATH 103M
   * MATH 162M
   * MATH 163
 
